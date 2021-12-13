@@ -1,0 +1,33 @@
+version: "2"
+chains:
+- id: earth
+  account: default
+  address_prefix: cosmos
+  rpc_address: http://localhost:26651
+  gas_price: 0.0000025stake
+  gas_limit: 300000
+- id: mars
+  account: default
+  address_prefix: cosmos
+  rpc_address: http://localhost:26652
+  gas_price: 0.0000025stake
+  gas_limit: 300000
+paths:
+- id: earth-mars
+  ordering: ORDER_UNORDERED
+  src:
+    chain_id: earth
+    connection_id: connection-0
+    channel_id: channel-0
+    port_id: transfer
+    version: ics20-1
+    packet_height: 489
+    ack_height: 490
+  dst:
+    chain_id: mars
+    connection_id: connection-0
+    channel_id: channel-0
+    port_id: transfer
+    version: ics20-1
+    packet_height: 910
+    ack_height: 911
