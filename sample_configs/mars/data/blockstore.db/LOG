@@ -1,0 +1,38 @@
+=============== Dec 16, 2021 (IST) ===============
+20:16:06.675018 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:16:06.681372 db@open opening
+20:16:06.681656 version@stat F·[] S·0B[] Sc·[]
+20:16:06.684608 db@janitor F·2 G·0
+20:16:06.684632 db@open done T·3.238378ms
+21:00:30.553830 memdb@flush N·15466 S·3MiB
+21:00:30.572510 memdb@flush created L0@3 N·15466 S·2MiB "BH:..275,v4695":"blo..ore,v6"
+21:00:30.572575 version@stat F·[1] S·2MiB[2MiB] Sc·[0.25]
+21:00:30.580549 memdb@flush committed F·1 T·26.584294ms
+21:00:30.581504 journal@remove removed @1
+21:44:44.999026 memdb@flush N·15402 S·3MiB
+21:44:45.020246 memdb@flush created L0@5 N·15402 S·2MiB "BH:..015,v22365":"blo..ore,v15468"
+21:44:45.020299 version@stat F·[2] S·4MiB[4MiB] Sc·[0.50]
+21:44:45.025858 memdb@flush committed F·1 T·26.778156ms
+21:44:45.027093 journal@remove removed @2
+22:29:04.654464 memdb@flush N·15441 S·3MiB
+22:29:04.677708 memdb@flush created L0@7 N·15441 S·2MiB "BH:..0f9,v44523":"blo..ore,v30870"
+22:29:04.677768 version@stat F·[3] S·7MiB[7MiB] Sc·[0.75]
+22:29:04.685886 memdb@flush committed F·1 T·31.276617ms
+22:29:04.687136 journal@remove removed @4
+23:13:21.794279 memdb@flush N·15429 S·3MiB
+23:13:21.813836 memdb@flush created L0@9 N·15429 S·2MiB "BH:..946,v58695":"blo..ore,v46314"
+23:13:21.813901 version@stat F·[4] S·9MiB[9MiB] Sc·[1.00]
+23:13:21.824280 memdb@flush committed F·1 T·29.858094ms
+23:13:21.825292 journal@remove removed @6
+23:13:21.825354 table@compaction L0·4 -> L1·0 S·9MiB Q·61740
+23:13:21.851082 table@build created L1@10 N·18239 S·2MiB "BH:..0f9,v44523":"C:7891,v47350"
+23:13:21.872750 table@build created L1@11 N·10059 S·2MiB "C:7892,v47356":"H:7683,v46094"
+23:13:21.897149 table@build created L1@12 N·7381 S·2MiB "H:7684,v46100":"P:5067:0,v30397"
+23:13:21.916704 table@build created L1@13 N·7680 S·2MiB "P:5068:0,v30403":"SC:2716,v16295"
+23:13:21.933678 table@build created L1@14 N·8091 S·1MiB "SC:2717,v16301":"blo..ore,v61734"
+23:13:21.933725 version@stat F·[0 5] S·9MiB[0B 9MiB] Sc·[0.00 0.09]
+23:13:21.936706 table@compaction committed F+1 S+10KiB Ke·0 D·10288 T·111.329708ms
+23:13:21.937029 table@remove removed @9
+23:13:21.937190 table@remove removed @7
+23:13:21.937359 table@remove removed @5
+23:13:21.937527 table@remove removed @3

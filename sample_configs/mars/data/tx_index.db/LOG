@@ -1,0 +1,67 @@
+=============== Dec 16, 2021 (IST) ===============
+20:16:06.698289 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:16:06.704633 db@open opening
+20:16:06.705016 version@stat F·[] S·0B[] Sc·[]
+20:16:06.711994 db@janitor F·2 G·0
+20:16:06.712051 db@open done T·7.337153ms
+20:39:36.151151 memdb@flush N·47687 S·3MiB
+20:39:36.178621 memdb@flush created L0@3 N·47687 S·680KiB "blo..\x00\x01\x81,v1":"blo..k\x00\x01,v47663"
+20:39:36.178665 version@stat F·[1] S·680KiB[680KiB] Sc·[0.25]
+20:39:36.186557 memdb@flush committed F·1 T·34.389598ms
+20:39:36.187416 journal@remove removed @1
+21:02:41.980455 memdb@flush N·47074 S·3MiB
+21:02:42.047571 memdb@flush created L0@5 N·47074 S·699KiB "Q:\x88..o\xe1\xf4,v90904":"\xd3{c..\xf1m\x8f,v90850"
+21:02:42.047821 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+21:02:42.051094 memdb@flush committed F·1 T·70.484102ms
+21:02:42.054098 journal@remove removed @2
+21:26:09.128947 memdb@flush N·47635 S·3MiB
+21:26:09.157963 memdb@flush created L0@7 N·47635 S·680KiB "blo..\x01ʑ,v94762":"blo..k\x00\x01,v142372"
+21:26:09.158019 version@stat F·[3] S·2MiB[2MiB] Sc·[0.75]
+21:26:09.163456 memdb@flush committed F·1 T·34.466791ms
+21:26:09.164315 journal@remove removed @4
+21:49:36.215087 memdb@flush N·47635 S·3MiB
+21:49:36.239973 memdb@flush created L0@9 N·47635 S·680KiB "blo..\x01\xcf\xe2,v142397":"blo..k\x00\x01,v190007"
+21:49:36.240005 version@stat F·[4] S·2MiB[2MiB] Sc·[1.00]
+21:49:36.248345 memdb@flush committed F·1 T·32.417009ms
+21:49:36.249067 journal@remove removed @6
+21:49:36.249102 table@compaction L0·4 -> L1·0 S·2MiB Q·190066
+21:49:36.314482 table@build created L1@10 N·129694 S·2MiB "Q:\x88..o\xe1\xf4,v90904":"blo..k\x00\x01,v171341"
+21:49:36.330562 table@build created L1@11 N·27807 S·421KiB "blo..k\x00\x01,v171376":"\xd3{c..\xf1m\x8f,v90850"
+21:49:36.330609 version@stat F·[0 2] S·2MiB[0B 2MiB] Sc·[0.00 0.02]
+21:49:36.333400 table@compaction committed F-2 S-246KiB Ke·0 D·32530 T·84.27744ms
+21:49:36.333537 table@remove removed @9
+21:49:36.333658 table@remove removed @7
+21:49:36.333728 table@remove removed @5
+21:49:36.333791 table@remove removed @3
+22:13:02.588159 memdb@flush N·47635 S·3MiB
+22:13:02.616254 memdb@flush created L0@13 N·47635 S·680KiB "blo..\x01\xd53,v190032":"blo..k\x00\x01,v237642"
+22:13:02.616307 version@stat F·[1 2] S·3MiB[680KiB 2MiB] Sc·[0.25 0.02]
+22:13:02.624209 memdb@flush committed F·1 T·36.000143ms
+22:13:02.625331 journal@remove removed @8
+22:36:28.949804 memdb@flush N·47635 S·3MiB
+22:36:28.981761 memdb@flush created L0@15 N·47635 S·680KiB "blo..\x01ڄ,v237667":"blo..k\x00\x01,v285277"
+22:36:28.981818 version@stat F·[2 2] S·3MiB[1MiB 2MiB] Sc·[0.50 0.02]
+22:36:28.989888 memdb@flush committed F·1 T·40.025254ms
+22:36:28.991422 journal@remove removed @12
+22:59:17.282856 memdb@flush N·46404 S·3MiB
+22:59:17.305675 memdb@flush created L0@17 N·46404 S·674KiB "blo..\x01\xdf\xd5,v285302":"\xden&..\x8cf\xab,v297860"
+22:59:17.305827 version@stat F·[3 2] S·4MiB[1MiB 2MiB] Sc·[0.75 0.02]
+22:59:17.313997 memdb@flush committed F·1 T·30.868182ms
+22:59:17.314605 journal@remove removed @14
+23:22:13.034738 memdb@flush N·46585 S·3MiB
+23:22:13.056302 memdb@flush created L0@19 N·46585 S·670KiB "blo..\xe0%\x01,v331706":"blo..k\x00\x01,v378266"
+23:22:13.056346 version@stat F·[4 2] S·5MiB[2MiB 2MiB] Sc·[1.00 0.02]
+23:22:13.064182 memdb@flush committed F·1 T·29.400213ms
+23:22:13.065230 journal@remove removed @16
+23:22:13.065292 table@compaction L0·4 -> L1·2 S·5MiB Q·378325
+23:22:13.154431 table@build created L1@20 N·148617 S·2MiB "Q:\x88..o\xe1\xf4,v90904":"blo..k\x00\x01,v285956"
+23:22:13.220544 table@build created L1@21 N·110740 S·2MiB "blo..k\x00\x01,v285991":"blo..k\x00\x01,v2491"
+23:22:13.253164 table@build created L1@22 N·54142 S·807KiB "blo..k\x00\x01,v2526":"\xden&..\x8cf\xab,v297860"
+23:22:13.253203 version@stat F·[0 3] S·4MiB[0B 4MiB] Sc·[0.00 0.05]
+23:22:13.255903 table@compaction committed F-3 S-246KiB Ke·0 D·32261 T·190.58806ms
+23:22:13.256033 table@remove removed @19
+23:22:13.256142 table@remove removed @17
+23:22:13.256204 table@remove removed @15
+23:22:13.256284 table@remove removed @13
+23:22:13.256433 table@remove removed @10
+23:22:13.256479 table@remove removed @11

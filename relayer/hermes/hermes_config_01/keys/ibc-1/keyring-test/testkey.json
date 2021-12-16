@@ -1,0 +1,27 @@
+{
+  "public_key": "xpub6GPzpzDc7xvcV9LWWaaEXZKi1ZPt2SZ3TZ6UXSWSfWTkZU8SUqvoF6Te2p9nBSVc7jGdkEpraZKCiXPB7j7ezGzpuVqidLgsuXLxQPeJFuB",
+  "private_key": "xprvA3QeRUgiHbNKGfG3QZ3EARNyTXZPcyqC6LAsj46q7AvmgfoHwJcYhJ9ABX3wfjiefCJZaRij2VyUCtvVFM3mzdVcpAwS5wDyGEx1DMJ8znK",
+  "account": "cosmos18akg92ffgl2vrt2v344svffun4ycygxdnf7f6c",
+  "address": [
+    63,
+    108,
+    130,
+    169,
+    41,
+    71,
+    212,
+    193,
+    173,
+    76,
+    141,
+    107,
+    6,
+    37,
+    60,
+    157,
+    73,
+    130,
+    32,
+    205
+  ]
+}

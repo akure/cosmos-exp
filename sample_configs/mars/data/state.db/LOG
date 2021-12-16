@@ -1,0 +1,67 @@
+=============== Dec 16, 2021 (IST) ===============
+20:16:06.684826 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:16:06.690648 db@open opening
+20:16:06.691229 version@stat F·[] S·0B[] Sc·[]
+20:16:06.694430 db@janitor F·2 G·0
+20:16:06.694451 db@open done T·3.759672ms
+20:43:39.915495 memdb@flush N·6401 S·3MiB
+20:43:39.930423 memdb@flush created L0@3 N·6401 S·880KiB "abc..y:1,v6":"val..999,v3991"
+20:43:39.930471 version@stat F·[1] S·880KiB[880KiB] Sc·[0.25]
+20:43:39.935930 memdb@flush committed F·1 T·20.29481ms
+20:43:39.936874 journal@remove removed @1
+21:11:01.553998 memdb@flush N·6355 S·3MiB
+21:11:01.568572 memdb@flush created L0@5 N·6355 S·886KiB "abc..600,v6402":"val..190,v12755"
+21:11:01.568650 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+21:11:01.573943 memdb@flush committed F·1 T·19.880486ms
+21:11:01.575235 journal@remove removed @2
+21:12:41.808172 table@compaction L0·2 -> L1·0 S·1MiB Q·13141
+21:12:41.854197 table@build created L1@6 N·9569 S·1MiB "abc..y:1,v6":"val..999,v3991"
+21:12:41.854258 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+21:12:41.862347 table@compaction committed F-1 S-584KiB Ke·0 D·3187 T·54.082879ms
+21:12:41.862678 table@remove removed @5
+21:12:41.862937 table@remove removed @3
+21:38:35.738508 memdb@flush N·6397 S·3MiB
+21:38:35.763235 memdb@flush created L0@8 N·6397 S·878KiB "abc..189,v12758":"val..789,v19151"
+21:38:35.763527 version@stat F·[1 1] S·2MiB[878KiB 1MiB] Sc·[0.25 0.01]
+21:38:35.770220 memdb@flush committed F·1 T·31.565517ms
+21:38:35.773506 journal@remove removed @4
+21:40:19.481772 table@compaction L0·1 -> L1·1 S·2MiB Q·19553
+21:40:19.518780 table@build created L1@9 N·14366 S·1MiB "abc..y:1,v6":"val..999,v3991"
+21:40:19.518825 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+21:40:19.526795 table@compaction committed F-1 S-293KiB Ke·0 D·1600 T·44.971924ms
+21:40:19.527011 table@remove removed @8
+21:40:19.527200 table@remove removed @6
+22:06:08.149226 memdb@flush N·6399 S·3MiB
+22:06:08.167154 memdb@flush created L0@11 N·6399 S·878KiB "abc..788,v19154":"val..389,v25551"
+22:06:08.167244 version@stat F·[1 1] S·2MiB[878KiB 1MiB] Sc·[0.25 0.02]
+22:06:08.174998 memdb@flush committed F·1 T·25.527833ms
+22:06:08.175827 journal@remove removed @7
+22:07:51.435042 table@compaction L0·1 -> L1·1 S·2MiB Q·25949
+22:07:51.482706 table@build created L1@12 N·5985 S·2MiB "abc..y:1,v6":"abc..385,v25542"
+22:07:51.495364 table@build created L1@13 N·13181 S·267KiB "abc..386,v25546":"val..999,v3991"
+22:07:51.495427 version@stat F·[0 2] S·2MiB[0B 2MiB] Sc·[0.00 0.02]
+22:07:51.504156 table@compaction committed F~ S-293KiB Ke·0 D·1599 T·68.987791ms
+22:07:51.504800 table@remove removed @11
+22:07:51.505406 table@remove removed @9
+22:33:41.610607 memdb@flush N·6397 S·3MiB
+22:33:41.626007 memdb@flush created L0@15 N·6397 S·878KiB "abc..388,v25554":"val..988,v31947"
+22:33:41.626098 version@stat F·[1 2] S·3MiB[878KiB 2MiB] Sc·[0.25 0.02]
+22:33:41.629221 memdb@flush committed F·1 T·18.529646ms
+22:33:41.630273 journal@remove removed @10
+22:35:24.887802 table@compaction L0·1 -> L1·1 S·1MiB Q·32349
+22:35:24.911129 table@build created L1@16 N·17978 S·853KiB "abc..386,v25546":"val..999,v3991"
+22:35:24.911232 version@stat F·[0 2] S·2MiB[0B 2MiB] Sc·[0.00 0.03]
+22:35:24.916889 table@compaction committed F-1 S-293KiB Ke·0 D·1600 T·29.022748ms
+22:35:24.917511 table@remove removed @15
+22:35:24.917695 table@remove removed @13
+23:01:09.989294 memdb@flush N·6380 S·3MiB
+23:01:10.001933 memdb@flush created L0@18 N·6380 S·880KiB "abc..987,v31950":"val..583,v38327"
+23:01:10.001979 version@stat F·[1 2] S·3MiB[880KiB 2MiB] Sc·[0.25 0.03]
+23:01:10.007235 memdb@flush committed F·1 T·17.826672ms
+23:01:10.007713 journal@remove removed @14
+23:02:53.337682 table@compaction L0·1 -> L1·1 S·1MiB Q·38729
+23:02:53.361521 table@build created L1@19 N·22763 S·1MiB "abc..386,v25546":"val..999,v3991"
+23:02:53.361636 version@stat F·[0 2] S·3MiB[0B 3MiB] Sc·[0.00 0.03]
+23:02:53.367106 table@compaction committed F-1 S-291KiB Ke·0 D·1595 T·29.360549ms
+23:02:53.367339 table@remove removed @18
+23:02:53.367414 table@remove removed @16
